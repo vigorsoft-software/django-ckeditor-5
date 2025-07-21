@@ -229,8 +229,11 @@ Includes the following ckeditor5 plugins:
             ShowBlocks,
             SelectAll,
             FindAndReplace,
+            Math,
+            AutoformatMath,
             FullScreen
-
+            
+The math plugins enable an equation editor powered by ``ckeditor5-math``.
 
 Examples
 -----------

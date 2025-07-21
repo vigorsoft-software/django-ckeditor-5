@@ -53,6 +53,8 @@ import { ShowBlocks } from '@ckeditor/ckeditor5-show-blocks';
 import { SelectAll } from '@ckeditor/ckeditor5-select-all';
 import { FindAndReplace } from '@ckeditor/ckeditor5-find-and-replace';
 import FullScreen from '@pikulinpw/ckeditor5-fullscreen';
+import Math from 'ckeditor5-math/src/math';
+import AutoformatMath from 'ckeditor5-math/src/autoformatmath';
 
 export default class ClassicEditor extends ClassicEditorBase {
 }
@@ -110,5 +112,7 @@ ClassicEditor.builtinPlugins = [
     ShowBlocks,
     SelectAll,
     FindAndReplace,
+    Math,
+    AutoformatMath,
     FullScreen
 ];
