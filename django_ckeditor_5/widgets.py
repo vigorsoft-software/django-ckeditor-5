@@ -14,7 +14,7 @@ else:
 from django.forms.utils import ErrorList
 
 DEFAULT_CONFIG = {
-    "toolbar": ["heading", "|", "bold", "italic"],
+    "toolbar": ["heading", "|", "bold", "italic", "math"],
 }
 
 
